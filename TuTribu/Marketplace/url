@@ -1,0 +1,8 @@
+# urls marketplace
+
+from django.urls import path
+from Marketplace.views import marketplace
+
+urlpatterns = [
+    path('Marketplace', marketplace)
+]
