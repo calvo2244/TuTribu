@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import CarritoCompras, Items, Envio
 
-# Register your models here.
+admin.site.register(CarritoCompras)
+admin.site.register(Items)
+admin.site.register(Envio)
+
+
